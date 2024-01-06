@@ -1,5 +1,4 @@
-# cpm-vadcg
-VADCG TERMINAL NODE COMMUNICATIONS PROGRAM
+# VADCG TERMINAL NODE COMMUNICATIONS PROGRAM
 
         TITLE	'VADCG TERMINAL NODE COMMUNICATIONS PROGRAM  -	LIPM MODULE'
     ; ********************************************************************
