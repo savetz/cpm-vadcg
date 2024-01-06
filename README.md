@@ -1,2 +1,38 @@
 # cpm-vadcg
 VADCG TERMINAL NODE COMMUNICATIONS PROGRAM
+
+        TITLE	'VADCG TERMINAL NODE COMMUNICATIONS PROGRAM  -	LIPM MODULE'
+    ; ********************************************************************
+    ; **   VADCG TERMINAL NODE COMMUNICATIONS PROGRAM  -  MODULE LIPTT  **
+    ; **	     BY DOUG LOCKHART, VE7APU	       DECEMBER, 1979	    **
+    ; ********************************************************************
+    ; LAST CHANGED: JUNE 30, 1980
+    ; MODIFIED: MARCH 8, 1981 BY HANK MAGNUSKI, KA6M (FROM LIP-TT CODE)
+    ; MODIFIED: MAY 14TH, 1981 WITH CORRECTIONS SUGGESTED BY DOUG LOCKHART
+    ; MODIFIED: MAY 25TH, 1981 WITH CORRECTIONS TO CONNECTION FAILURE CODE
+    ; MODIFIED: JUNE 4TH, 1981 TO CLEAR RECEIVE INTERRUPT ON OVERFLOW
+    ; MODIFIED: JUNE 15TH, 1981 FOR PROBLEMS RELATED TO F BIT & US BUFFER
+
+    ; THIS PROGRAM IS DESIGNED TO RUN IN THE VADCG TERMINAL NODE CONTROLLER
+    ; TOGETHER WITH A TERMINAL INTERFACE PROGRAM. THIS PROGRAM DRIVES AN
+    ; INTEL 8273 HDLC/SDLC PROTOCOL CONTROL CHIP USING INTERRUPTS AND RUNS
+    ; IN ROM MEMORY.
+
+        TITLE	'VADCG TERMINAL NODE COMMUNICATIONS PROGRAM - MODULE TIPM'
+    ; *************************************************************************
+    ; **   VADCG TERMINAL NODE COMMUNICATIONS PROGRAM  -  MODULE TIP-TT	 **
+    ; **	     BY DOUG LOCKHART, VE7APU		   MAY, 1980		 **
+    ; *************************************************************************
+    ; CHANGED: MARCH 8, 1981 BY HANK MAGNUSKI, KA6M
+    ; Modified June, 1981 by Hank Magnuski, KA6M
+    ; Modified 10 Sept 81 by Calvin Teague, K6HWJ -- change special chars to
+    ;	escape sequences using ^^ as special character
+
+    ; TERMINAL INTERFACE PROGRAM
+    ; THIS PROGRAM IS WRITTEN TO RUN IN THE VADCG TERMINAL NODE CONTROLLER.	 IT
+    ; INTERFACES WITH A NODE COMMUNICATIONS PROGRAM RUNNING AT ADDRESS 0 IN 
+    ; MEMORY.  THIS VERSION IS WRITTEN TO USE THE 8250 PROGRAMMABLE UART
+    ; TO COMMUNICATE WITH A LOCAL TERMINAL.
+
+
+Recovered by Digital Library of Amateur Radio and Communications, from 8" CP/M floppy disk. https://archive.org/details/cpm-communications
